@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/custom.css">
+<link rel="icon" href="img/kasar_ctf.jpg" sizes="32x32" type="image/png">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgb(255, 5, 5,.2);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+</style>
+</head>
+<body style="background-color: black">
+    <div>
+    <center>
+<video id="myVideo">
+  <source src="vid/HALLOWEEN_CTF_CREDITS.mp4" type="video/mp4">
+  
+</video>
+
+</div>
+
+<div class="content">
+    <center>
+  <button class="button2 b-red rot-135" style="background-image: url(img/kasar_ctf.jpg);" id="myBtn" onclick="myFunction()">Play</button>
+  <a href="https://kasarCTF.github.io" class="button2 b-red rot-135" style="background-image: url(img/kasar_ctf.jpg);">Retour Accueil</a>
+</center>
+</div>
+
+</center>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>
