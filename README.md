@@ -1,13 +1,10 @@
-# kasarCTF.github.io
+# kasarHackathon.github.io
 
-## Bienvenu à tous dans ce CTF spécial Halloween !!
-## L'objectif est simple : Le premier qui résout toutes les énigmes gagne le  CTF et les 50€ promis ;)
+## Bienvenu à tous !!
+##Ce site Web peremttra de sauvegarder tous nos codes des hackathons pour que vous puissiez apprendre et réutilisez ces codes quand vous le voulez ;) 
 ## Au menu :  
-* Stéganographie 
-* Encoding
-* Encryptage
+### Hackathon #1 : AI Art Contest :
+* Stable Diffusion
+* Style Transfert de couleur et de style 
 
-## Si ces Termes ne vous font pas peur et bien vous devriez...
-
-### L'équipe KASAR vous souhaite un JOYEUX Halloween
 
